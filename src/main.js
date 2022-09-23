@@ -9,6 +9,12 @@ import '@/assets/css/reset.css'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 
+// mock数据
+import '@/mock'
+
+// 权限控制
+import '@/permission'
+
 Vue.config.productionTip = false
 
 Vue.use(Antd)
